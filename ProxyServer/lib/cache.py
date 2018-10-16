@@ -11,7 +11,6 @@ cache文件夹中；
 该文件的缓存。"""
 
 from hashlib import md5
-#from binascii import hex
 
 class CacheManager(object):
     def __init__(self):
@@ -22,31 +21,29 @@ class CacheManager(object):
         pass
 
     def ana_filename(self, data):
-        """通过浏览器发送的request请求得到文件名，当成功得到文件名之后，函数返回True，否则返回False。该函数必须在
-        进行该类的任何操作之前调用"""
+        """通过浏览器发送的request请求得到文件名，当成功得到文件名之后，函数返回文件名，否则返回None。"""
         begin_index = data.find(b'host: ')
         if begin_index == -1:
-            return False
+            return None
         url = []
         begin_index += 6
         while begin_index < len(data) and data[begin_index] != ord(b'\r'):
             url.append(chr(data[begin_index]))
         if begin_index == len(data):
-            return False
+            return None
         begin_index = -1
         for i in range(len(data)):
             if data[i] == ord(b' '):
                 begin_index = i
                 break
         if begin_index == -1:
-            return False
+            return None
         while begin_index < len(data) and data[begin_index] != ord(b' '):
             url.append(chr(data[begin_index]))
         if begin_index == len(data):
-            return False
+            return None
         url = bytes(''.join(url))
-        self.__filename = md5().update(url).hexdigest()
-        return True
+        return md5().update(url).hexdigest()
 
     def cached(self):
         """检查url是否缓存，要求之前必须调用ana_filename函数；如果缓存函数返回True，没有缓存返回False"""

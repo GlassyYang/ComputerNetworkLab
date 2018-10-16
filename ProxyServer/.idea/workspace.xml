@@ -2,32 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="386160ad-a12d-4678-9e1e-996179add861" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProxyServer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProxyServer/.vs/ProxyServer/v15/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../ProxyServer/.vs/ProxyServer/v15/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProxyServer/.vs/ProxyServer/v15/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/../ProxyServer/.vs/ProxyServer/v15/Browse.VC.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProxyServer/.vs/ProxyServer/v15/ipch/AutoPCH/1bdfd1ef0393775f/MAINSERVER.ipch" beforeDir="false" afterPath="$PROJECT_DIR$/../ProxyServer/.vs/ProxyServer/v15/ipch/AutoPCH/1bdfd1ef0393775f/MAINSERVER.ipch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProxyServer/.vs/ProxyServer/v15/ipch/AutoPCH/619404f105a10a90/PROXYSERVER.ipch" beforeDir="false" afterPath="$PROJECT_DIR$/../ProxyServer/.vs/ProxyServer/v15/ipch/AutoPCH/619404f105a10a90/PROXYSERVER.ipch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProxyServer/.vs/ProxyServer/v15/ipch/AutoPCH/9416404f813b2e64/DEALREQUEST.ipch" beforeDir="false" afterPath="$PROJECT_DIR$/../ProxyServer/.vs/ProxyServer/v15/ipch/AutoPCH/9416404f813b2e64/DEALREQUEST.ipch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProxyServer/Debug/ProxyServer.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../ProxyServer/Debug/ProxyServer.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProxyServer/Debug/ProxyServer.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/../ProxyServer/Debug/ProxyServer.ilk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProxyServer/Debug/ProxyServer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../ProxyServer/Debug/ProxyServer.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProxyServer/ProxyServer/DealRequest.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../ProxyServer/ProxyServer/DealRequest.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProxyServer/ProxyServer/DealRequest.h" beforeDir="false" afterPath="$PROJECT_DIR$/../ProxyServer/ProxyServer/DealRequest.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProxyServer/ProxyServer/Debug/DealRequest.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../ProxyServer/ProxyServer/Debug/DealRequest.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProxyServer/ProxyServer/Debug/MainServer.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../ProxyServer/ProxyServer/Debug/MainServer.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProxyServer/ProxyServer/Debug/ProxyServer.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../ProxyServer/ProxyServer/Debug/ProxyServer.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProxyServer/ProxyServer/Debug/ProxyServer.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../ProxyServer/ProxyServer/Debug/ProxyServer.tlog/CL.read.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProxyServer/ProxyServer/Debug/ProxyServer.tlog/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../ProxyServer/ProxyServer/Debug/ProxyServer.tlog/CL.write.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProxyServer/ProxyServer/Debug/ProxyServer.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../ProxyServer/ProxyServer/Debug/ProxyServer.tlog/link.read.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProxyServer/ProxyServer/Debug/vc141.idb" beforeDir="false" afterPath="$PROJECT_DIR$/../ProxyServer/ProxyServer/Debug/vc141.idb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProxyServer/ProxyServer/Debug/vc141.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../ProxyServer/ProxyServer/Debug/vc141.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProxyServer/ProxyServer/MainServer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../ProxyServer/ProxyServer/MainServer.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProxyServer/ProxyServer/MainServer.h" beforeDir="false" afterPath="$PROJECT_DIR$/../ProxyServer/ProxyServer/MainServer.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProxyServer/ProxyServer/ProxyServer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../ProxyServer/ProxyServer/ProxyServer.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProxyServer/ProxyServer/ProxyServer.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../ProxyServer/ProxyServer/ProxyServer.vcxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProxyServer/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ProxyServer/client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProxyServer/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ProxyServer/server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProxyServer.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProxyServer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/cache.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cache.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +18,7 @@
     <session id="2054021916">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.6" value="1" />
@@ -73,19 +52,49 @@
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
     </session>
+    <session id="1549456765">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="1363" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="1363" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ProxyServer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="204">
+              <caret line="126" column="50" selection-start-line="126" selection-start-column="50" selection-end-line="126" selection-end-column="50" />
               <folding>
                 <element signature="e#47#67#0" expanded="true" />
-                <marker date="1539508550556" expanded="true" signature="831:832" ph="..." />
-                <marker date="1539508550556" expanded="true" signature="831:836" ph="..." />
-                <marker date="1539508550556" expanded="true" signature="3338:3429" ph="..." />
               </folding>
             </state>
           </provider>
@@ -95,10 +104,28 @@
         <entry file="file://$PROJECT_DIR$/lib/filter.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="209">
-              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               <folding>
                 <marker date="1539506985708" expanded="true" signature="326:331" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="20" selection-start-column="20" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/cache.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="356">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -116,9 +143,12 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>filename</find>
+      <find>False</find>
+      <find>shut</find>
     </findStrings>
     <replaceStrings>
       <replace>__filename</replace>
+      <replace>None</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -129,9 +159,11 @@
       <list>
         <option value="$PROJECT_DIR$/cache.py" />
         <option value="$PROJECT_DIR$/filter.py" />
+        <option value="$PROJECT_DIR$/redirect.html" />
+        <option value="$PROJECT_DIR$/lib/cache.py" />
         <option value="$PROJECT_DIR$/lib/__init__.py" />
         <option value="$PROJECT_DIR$/ProxyServer.py" />
-        <option value="$PROJECT_DIR$/redirect.html" />
+        <option value="$PROJECT_DIR$/ProxyServer.py" />
       </list>
     </option>
   </component>
@@ -151,12 +183,12 @@
         <subPane>
           <expand>
             <path>
-              <item name="psbypython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="psbypython" type="462c0819:PsiDirectoryNode" />
+              <item name="ProxyServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProxyServer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="psbypython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="psbypython" type="462c0819:PsiDirectoryNode" />
+              <item name="ProxyServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProxyServer" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -208,114 +240,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <module name="ProxyServer" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="Tox" factoryName="Tox">
-      <module name="ProxyServer" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Doctests">
-      <module name="ProxyServer" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Nosetests">
-      <module name="ProxyServer" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_regexPattern" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Twisted Trial">
-      <module name="ProxyServer" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Unittests">
-      <module name="ProxyServer" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="py.test">
-      <module name="ProxyServer" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.ProxyServer" />
@@ -337,7 +261,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -361,38 +284,7 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/ProxyServer.py</url>
-          <line>34</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/cache.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/filter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-          <folding>
-            <marker date="1539506985708" expanded="true" signature="326:331" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/redirect.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -400,15 +292,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/cache.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/filter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <marker date="1539506985708" expanded="true" signature="326:331" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="20" selection-start-column="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ProxyServer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="204">
+          <caret line="126" column="50" selection-start-line="126" selection-start-column="50" selection-end-line="126" selection-end-column="50" />
           <folding>
             <element signature="e#47#67#0" expanded="true" />
-            <marker date="1539508550556" expanded="true" signature="831:832" ph="..." />
-            <marker date="1539508550556" expanded="true" signature="831:836" ph="..." />
-            <marker date="1539508550556" expanded="true" signature="3338:3429" ph="..." />
           </folding>
         </state>
       </provider>
