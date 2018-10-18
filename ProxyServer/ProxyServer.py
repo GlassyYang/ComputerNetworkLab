@@ -4,7 +4,7 @@ from socket import *
 from threading import Thread, Lock
 from time import sleep
 import lib# 导入本地的扩展包
-
+import base64
 BUFSIZE = 10240
 connect_recv = b'HTTP/1.1 200 Connection Established\r\n\r\n'
 badRequest = b'HTTP/1.1 400 Bad Request\r\nConnection: Close\r\n\r\n'
@@ -14,7 +14,8 @@ head = b'Content-Type: text/html;charset=UTF-8\r\nDate: %s\r\nConnection: %s\r\n
 user_connect = False    # 使用代理服务器认证的标志，如果为False则不进行代理服务器代理服务器认证；
 user_allow = False      # 允许访问的标志，如果为false则浏览器发起的request都不会被处理；
 user_list = []          # 白名单，比黑名单更安全。里面存储着允许访问的用户，在服务器开始工作时初始化；
-unauthorized = b'HTTP/1.1 407 Unauthorized\r\n'
+unauthorized = b'HTTP/1.1 407 Unauthorized\r\nProxy-Authenticate: Basic realm="Access to the internal site"'\
+                + b'\r\nContent-length: %d\r\nConnection: close\r\n\r\n'
 file = 'unauthorized.html'
 
 # 用于网站引导。
@@ -25,13 +26,106 @@ redirected_header = b'HTTP/1.1 200 OK\r\n'  # 进行钓鱼的http头部，匹配
 # 用于网站过滤
 web_filter = None       # 用于网站过滤的过滤器，在
 
-#用于网页缓存
+# 用于网页缓存
 cache = None            # 用于缓存网页的cache对象
 lock = Lock()           # 用于多线程并发的锁
 
+
+def open_data(filename):
+    """
+    open specified html file, return data of it.
+    :param filename: specified html file, encoding should be utf-8
+    :return: first value is bytes of file, second value is Bytes list, and data of file included.
+    """
+    try:
+        f = open(filename, 'r', encoding='utf-8')
+    except FileNotFoundError:
+        return None
+    data = f.read()
+    length = len(data)
+    return data.encode('utf-8'), length
+
+
+def tunnel(sock, data):
+    """
+    try to establish a tunnel when receive CONNECT method
+    :param sock: origin socket, usually is a connect socket between proxy and browser
+    :param data: HTTP request using method CONNECT from browser
+    :return: nothing
+    """
+    index = 7
+    if data[index] == 0x20:  # 0x20为' '的ASCII码值
+        index += 1
+    index_e = index
+    while data[index] != 0x3a:  # 0x3a为':'的ASCII码值
+        index_e += 1
+    url = str(data[index:index_e], encoding='ascii')
+    print(url)
+    index += 1
+    index_e = index
+    while 0x30 <= data[index_e] < 0x3a:
+        index_e += 1
+    port = int(data[index:(index_e + 1)].decode('ascii'))
+    print(port)
+    if port not in (80, 443):
+        return
+    server = socket(AF_INET, SOCK_STREAM)
+    try:
+        server.connect((gethostbyname(url, port)))
+    except timeout or ConnectionRefusedError:
+        server.close()
+        return
+    sock.send(connect_recv)
+    sock.settimeout(2)
+    server.settimeout(2)
+    try:
+        while True:
+            while True:
+                try:
+                    data = sock.recv(BUFSIZE)
+                    l = server.send(data)
+                    assert len(data) == l
+                except timeout:
+                    break
+            sleep(1)
+            while True:
+                try:
+                    data = server.recv(BUFSIZE)
+                    l = sock.send(data)
+                    assert len(data) == l
+                except timeout:
+                    break
+    except ConnectionAbortedError:
+        return
+
+
+def validate(sock, data):
+    global user_allow
+    index = data.find(b"Proxy-Authorization: Basic ")
+    # 如果GET方法中没有设置Proxy-Authorization头部，返回未授权的respond
+    if index == -1:
+        data, length = open_data(file)
+        sock.send((unauthorized % length) + data)
+        return False
+    # 否则对用户名和密码进行验证；
+    else:
+        index += 27
+        index_e = index  # 加上了"Proxy-Authorization: Basic "的长度进行索引的调整
+        while data[index_e] != ord(b'\r'):  # 0x0d为\r的ascii表示
+            index_e += 1
+        user = base64.b64decode(data[index:index_e])
+        if user in user_list:
+            user_allow = True
+            return True
+        else:
+            data, length = open_data(file)
+            sock.send((unauthorized % length) + data)
+            return False
+
+
 # 子线程的主要处理函数，sock为接收到的客户端连接的socket
 def thread_main(sock):
-    global web_filter, cache, redirected_filter, user_allow
+    global web_filter, cache, redirected_filter, user_allow, user_connect, user_list, cache
     pre_url = b''
     server = None
     while True:
@@ -43,11 +137,14 @@ def thread_main(sock):
         except ConnectionAbortedError:
             break
         if data.find(b'CONNECT') != -1:
-            # 在CONNECT方法中进行代理服务器认证的设置
-            print(data)
-            sock.send(connect_recv)
+            # 尝试进行HTTPS代理隧道的构建
+            tunnel(sock, data)
+        # 处理浏览器发送的GET、POST和HEAD请求，其余的请求全部忽略，当做bad request处理
         elif data.find(b'GET') != -1 or data.find(b"POST") != -1 or data.find(b'HEAD') != -1:
-
+            # 在GET方法中进行用户名验证，如果要求的话
+            if user_connect and not user_allow:
+                if not validate(sock, data):
+                    break
             if data.find(b'\r\nHost') != -1:
                 index = data.find(b'\r\nHost')
                 index += 8
@@ -78,6 +175,12 @@ def thread_main(sock):
                         print(e)
                         break
                     pre_url = url
+                if cache is not None:
+                    filename = cache.ana_filename(data)
+                    if cache.cached():
+                        pass
+                    else:
+                        pass
                 try:
                     length = server.send(data)
                 except timeout as e:
@@ -115,16 +218,18 @@ def thread_main(sock):
 # 程序的主线程：
 def main():
     print("Server initialize...")
-    global web_filter, redirected_filter
-    command = input("Whether execute website filter or not?y/n")
-    if command == 'y' or command == 'yes':
-        web_filter = lib.filter.Filter()
-    command = input("Whether execute website phishing or not? y/n")
-    if command == 'y' or command == 'yes':
-        redirected_filter = lib.filter.Filter()
-    command = input("Whether execute cache or not? y/n")
-    if command == 'y' or command == 'yes':
-        redirected_filter = lib.cache.CacheManager()
+    global web_filter, redirected_filter, user_connect, user_list
+    # command = input("Whether execute website filter or not?y/n")
+    # if command == 'y' or command == 'yes':
+    #     web_filter = lib.filter.Filter()
+    # command = input("Whether execute website phishing or not? y/n")
+    # if command == 'y' or command == 'yes':
+    #     redirected_filter = lib.filter.Filter()
+    # command = input("Whether execute cache or not? y/n")
+    # if command == 'y' or command == 'yes':
+    cache = lib.cache.CacheManager()
+    # user_connect = True
+    # user_list = [b'admin:123']
     own = socket(AF_INET, SOCK_STREAM)
     own.bind(('localhost', 9090))
     own.listen()
