@@ -3,7 +3,7 @@
 from socket import *
 from threading import Thread, Lock
 from time import sleep
-import lib# 导入本地的扩展包
+import lib  # 导入本地的扩展包
 import base64
 BUFSIZE = 10240
 connect_recv = b'HTTP/1.1 200 Connection Established\r\n\r\n'
@@ -123,6 +123,52 @@ def validate(sock, data):
             return False
 
 
+def cache_oper(data, server):
+    """
+    Contact with server and deal with data, including cache data, sending self-made request to server, and return cached
+    data from local.
+    :param data: request from browser.
+    :param server: server socket which request will send
+    :return: respond of the request, either from server or local cache.
+    """
+    global cache
+    filename = cache.ana_filename(data)
+    if cache.cached(filename):
+        time_stamp = cache.timestamp(filename)
+        index = data.find(b'\r\n\r\n')
+        assert index != -1
+        request = data[:index] + b'If-Modified_Since: ' + time_stamp + b'\r\n' + b'\r\n\r\n'
+        server.send(request)
+        server.settimeout(2)
+        data = b''
+        # 从服务器完整的接收数据
+        while True:
+            try:
+                temp = server.recv(BUFSIZE)
+                data += temp
+            except timeout:
+                break
+        if data.find(b'304 Not Modified') != -1:
+            return cache.get_data()
+        else:
+            cache.cache(data, filename)
+            return data
+    else:
+        server.send(data)
+        server.settimeout(2)
+        data = b''
+        while True:
+            try:
+                temp = server.recv(BUFSIZE)
+                if len(temp) == 0:
+                    break
+                data += temp
+            except timeout:
+                break
+        cache.cache(data, filename)
+        return data
+
+
 # 子线程的主要处理函数，sock为接收到的客户端连接的socket
 def thread_main(sock):
     global web_filter, cache, redirected_filter, user_allow, user_connect, user_list, cache
@@ -145,6 +191,7 @@ def thread_main(sock):
             if user_connect and not user_allow:
                 if not validate(sock, data):
                     break
+            # 获取浏览器请求中的主机地址
             if data.find(b'\r\nHost') != -1:
                 index = data.find(b'\r\nHost')
                 index += 8
@@ -175,17 +222,16 @@ def thread_main(sock):
                         print(e)
                         break
                     pre_url = url
-                if cache is not None:
-                    filename = cache.ana_filename(data)
-                    if cache.cached():
-                        pass
-                    else:
-                        pass
+                # 判断是否启用缓存功能
+                if data.find(b'GET') != -1 and cache is not None:
+                    data = cache_oper(data, server)
+                    sock.send(data)
+                    continue
+                # 如果缓存功能没有启用，则直接向服务器发送请求，并得到服务请返回的数据，将其发送给浏览器端
                 try:
-                    length = server.send(data)
+                    server.send(data)
                 except timeout as e:
                     print(e)
-                assert length == len(data)
                 # 检测是否应该关闭连接
                 if data.find(b"Connection: keep-alive") == -1:
                     close = True
@@ -196,6 +242,8 @@ def thread_main(sock):
                 while True:
                     try:
                         data = server.recv(BUFSIZE)
+                        if len(data) == 0:
+                            break
                     except timeout:
                         break
                     except ConnectionAbortedError:
@@ -218,7 +266,7 @@ def thread_main(sock):
 # 程序的主线程：
 def main():
     print("Server initialize...")
-    global web_filter, redirected_filter, user_connect, user_list
+    global web_filter, redirected_filter, user_connect, user_list, cache
     # command = input("Whether execute website filter or not?y/n")
     # if command == 'y' or command == 'yes':
     #     web_filter = lib.filter.Filter()
