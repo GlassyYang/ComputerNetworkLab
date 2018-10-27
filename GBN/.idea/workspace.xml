@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="def1b45a-e3b8-45f2-bbe2-1ede98d73067" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../ProxyServer/cache/021750361b312c7a60b18160d45dcd2b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProxyServer/cache/0a4929442b01fbe89d11d03941afce57" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProxyServer/cache/0ccbeb7b67662e2069dc93e69ad4ec35" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProxyServer/cache/0ce5603f6526d3ca797780ab5a7991c7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProxyServer/cache/15d04919f3f848e0b25fe3a1081e435c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProxyServer/cache/1b21e98d6256a0b9fa3dba8009dd73a6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProxyServer/cache/1e51c8d936deeb5a5e8fd0120d0837ad" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProxyServer/cache/229e13fa14c3388f498abb2e94c46d9b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProxyServer/cache/261d1ee9d294ee26a2073ddb4f5efba7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProxyServer/cache/28b05825d382c5611fa805fac95cf51d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProxyServer/cache/2a09782bcc91c2e41d50689efa22d4b6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProxyServer/cache/2b97f8f02d17f88a62dd6038c3b58ec4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProxyServer/cache/2d66942eeda8ddfd85a92c64609dda2f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProxyServer/cache/2db81a40e7e108f68db238c776106e96" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProxyServer/cache/2f2ce57e912e8030a109f923845586e3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProxyServer/cache/313de86353e8ee4222b0eee70b3239c8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProxyServer/cache/330facc1eba41dd247507e695750aa5b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProxyServer/cache/37fe38311770e0128c3c90b85efd35bb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProxyServer/cache/3b6b15582d15acfe707c3fb4225472a4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProxyServer/cache/3ced85c6f025202499d144f058d3f597" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProxyServer/cache/3ff39afc67b59e21bce7511f000033b8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProxyServer/cache/4450ce43f0cc17924af2087fe05c8cbd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProxyServer/cache/65670a15108827afd183b083d6c59e62" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProxyServer/cache/6c14e66665ffc0cf1b825d333ed2cb3a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProxyServer/cache/723e349483231416ef42a77822a88034" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProxyServer/cache/73821a1ec9a2af62a7614767e9d54244" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProxyServer/cache/79ab7134c2158a60c29cf4f304fd45d2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProxyServer/cache/7b1a7a296bce23dad466e51fb39b7343" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProxyServer/cache/7ca30df7ce0623b0218fababe088d39a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProxyServer/cache/80523934c417d696b922d7d60c2a42ad" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProxyServer/cache/811e61c42ff70d87970162b061b14a0a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProxyServer/cache/81b4d9bc1a74a0d2181932f65473d587" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProxyServer/cache/850f3c912a1ac70bfd8443cd4227cf83" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProxyServer/cache/85985d15d91471a98192532ae8ef44a0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProxyServer/cache/87308583852b6ec73ed659215ab8b5c5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProxyServer/cache/8756492d4762d0dde1234a9e1397a7ae" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProxyServer/cache/940d44443e342fe44ab79f68119a0da7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProxyServer/cache/944816ce5c3449386bc785e4937303c0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProxyServer/cache/9c10536cfab672fbe25fc148c2ecd4ed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProxyServer/cache/a34010d95f82e5fc3156511bacf8f6be" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProxyServer/cache/a59da69da375c0133d0d1e4c850638c8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProxyServer/cache/a91b138df510cced83c30ce84251d9fa" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProxyServer/cache/a9cd2be5309591ce94ebed2ceeb62ca4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProxyServer/cache/ac471d3c3d32f671749c7fea33dc4545" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProxyServer/cache/aff980b875232e88a0583a78fe127cb0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProxyServer/cache/b19cfa9f3e4edeba443eb3fa32257384" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProxyServer/cache/b880b47801212306aceb7f285706213c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProxyServer/cache/b8fb41c110652a5cbdd0a136771aa7c3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProxyServer/cache/bb1770ed94f1831f472b6e5fff2de526" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProxyServer/cache/bc4ad1e71777ab73b91857d480784196" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProxyServer/cache/d18c3e917fa51cbf9ef52e22e03b9abd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProxyServer/cache/d4d7d12db5aba5f45a3d5e3daec2f9ea" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProxyServer/cache/d6b7a60e2559b830680d4dc57ca9ac15" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProxyServer/cache/d772a3207f6de6d335f1ddfe62002406" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProxyServer/cache/d9ec790deae7920210385d072443980d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProxyServer/cache/e4d8ff404edca950e560555b7bee8afd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProxyServer/cache/e516ae047795fc0f55f8e8ff0943e531" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProxyServer/cache/e586b215d23205c3f9354543efe4c579" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProxyServer/cache/e5dc3c2a2e976fd04eb8a07bb1a68bda" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProxyServer/cache/f1c94ffec8c42714b15ba1a90f2d9a46" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProxyServer/cache/f7d0d79852cccf7e98a0d97a16edb41f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProxyServer/cache/fab3256bafee3db54a15b31904d666b8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProxyServer/cache/fc6ded50ce8027f684712da3fc5f904d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProxyServer/forbidden.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProxyServer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ProxyServer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProxyServer/ProxyServer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ProxyServer/ProxyServer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProxyServer/lib/cache.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ProxyServer/lib/cache.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProxyServer/lib/filter.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ProxyServer/lib/filter.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-566828401">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="23" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="23" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="Python Console" value="693" />
+          <entry key="dummy" value="10" />
+          <entry key="py" value="7016" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="Python" value="7709" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../GBN/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
+              <folding>
+                <marker date="1540563349278" expanded="true" signature="136:141" ph="..." />
+                <marker date="1540563349278" expanded="true" signature="291:296" ph="..." />
+                <marker date="1540563349278" expanded="true" signature="588:591" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../GBN/gbn_client.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <marker date="1540627175639" expanded="true" signature="51:56" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../GBN/gbn_server.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+              <folding>
+                <marker date="1540627051317" expanded="true" signature="52:57" ph="..." />
+                <marker date="1540627051317" expanded="true" signature="52:299" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../GBN/lib/gbn_sender.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1063">
+              <caret line="69" selection-start-line="69" selection-end-line="69" />
+              <folding>
+                <element signature="e#24#44#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/threading.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="269" column="8" lean-forward="true" selection-start-line="269" selection-start-column="8" selection-end-line="269" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>checksum</find>
+      <find>sum</find>
+      <find>cond</find>
+      <find>result</find>
+      <find>res</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>checksum</replace>
+      <replace>sum</replace>
+      <replace>result</replace>
+      <replace>condition</replace>
+      <replace>res</replace>
+      <replace>ans</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/sender.py" />
+        <option value="$PROJECT_DIR$/receiver.py" />
+        <option value="$PROJECT_DIR$/swp.py" />
+        <option value="$PROJECT_DIR$/lib/__init__.py" />
+        <option value="$PROJECT_DIR$/lib/lib.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/swp_sender.py" />
+        <option value="$PROJECT_DIR$/../GBN/lib/lib.py" />
+        <option value="$PROJECT_DIR$/../GBN/gbn_sender.py" />
+        <option value="$PROJECT_DIR$/../GBN/gbn_recver.py" />
+        <option value="$PROJECT_DIR$/../GBN/lib/__init__.py" />
+        <option value="$PROJECT_DIR$/../GBN/lib/gbn_recver.py" />
+        <option value="$PROJECT_DIR$/../GBN/gbn_server.py" />
+        <option value="$PROJECT_DIR$/../GBN/gbn_client.py" />
+        <option value="$PROJECT_DIR$/../GBN/lib/gbn_sender.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="336" />
+    <option name="y" value="24" />
+    <option name="width" value="697" />
+    <option name="height" value="775" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="GBN" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GBN" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GBN" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GBN" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="K:\computer Internetwork expr\GBN\lib" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.gbn_client">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="GBN" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="gbn_client" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="GBN" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../GBN" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../GBN/gbn_client.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="gbn_server" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="GBN" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../GBN" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../GBN/gbn_server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="swp" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="GBN" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="K:\computer Internetwork expr\implement-of-stop-wait-protocol\swp_sender.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="GBN" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../GBN" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../GBN/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="GBN" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="GBN" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="GBN" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <module name="GBN" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Twisted Trial">
+      <module name="GBN" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <module name="GBN" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <module name="GBN" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.swp" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.gbn_server" />
+      <item itemvalue="Python.gbn_client" />
+      <item itemvalue="Python.test (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.gbn_client" />
+        <item itemvalue="Python.test (1)" />
+        <item itemvalue="Python.gbn_server" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.swp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="def1b45a-e3b8-45f2-bbe2-1ede98d73067" name="Default Changelist" comment="" />
+      <created>1540522291307</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1540522291307</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32973805" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3990755" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32973805" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32819724" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../GBN/test.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../GBN/lib/gbn_sender.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>type(data[i:i+2])</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>range(len(data), 2)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/sender.py" />
+    <entry file="file://$PROJECT_DIR$/receiver.py" />
+    <entry file="file://$PROJECT_DIR$/../GBN/lib/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="36" selection-start-column="36" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../GBN/lib/lib.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../GBN/lib/gbn_recver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+            <marker date="1540626400965" expanded="true" signature="136:141" ph="..." />
+            <marker date="1540626400965" expanded="true" signature="583:588" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../GBN/gbn_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+          <folding>
+            <marker date="1540627051317" expanded="true" signature="52:57" ph="..." />
+            <marker date="1540627051317" expanded="true" signature="52:299" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/threading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="269" column="8" lean-forward="true" selection-start-line="269" selection-start-column="8" selection-end-line="269" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../GBN/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <marker date="1540563349278" expanded="true" signature="136:141" ph="..." />
+            <marker date="1540563349278" expanded="true" signature="291:296" ph="..." />
+            <marker date="1540563349278" expanded="true" signature="588:591" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../GBN/gbn_client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <marker date="1540627175639" expanded="true" signature="51:56" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../GBN/lib/gbn_sender.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1063">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+          <folding>
+            <element signature="e#24#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

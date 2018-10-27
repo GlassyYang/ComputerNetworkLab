@@ -24,12 +24,13 @@ class Filter:
         """将输入的域名与内部的过滤规则进行匹配，成功返回True，失败返回False，要求host是string类型"""
         assert type(host) == str
         part = host.split('.')
-        for i in range(len(self.reg)):
+        for i in self.reg:
             if len(i) != len(part):
                 continue
             count = 0
             for j in range(len(part)):
                 if i[j] == '*':
+                    count += 1
                     continue
                 elif i[j] == part[j]:
                     count += 1

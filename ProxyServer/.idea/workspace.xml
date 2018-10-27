@@ -1,10 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="386160ad-a12d-4678-9e1e-996179add861" name="Default Changelist" comment="">
+    <list default="true" id="45e6eb60-0265-44f9-ae96-a06778bb6121" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cache/021750361b312c7a60b18160d45dcd2b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/0a4929442b01fbe89d11d03941afce57" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/0ccbeb7b67662e2069dc93e69ad4ec35" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/0ce5603f6526d3ca797780ab5a7991c7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/15d04919f3f848e0b25fe3a1081e435c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/1b21e98d6256a0b9fa3dba8009dd73a6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/1e51c8d936deeb5a5e8fd0120d0837ad" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/229e13fa14c3388f498abb2e94c46d9b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/261d1ee9d294ee26a2073ddb4f5efba7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/28b05825d382c5611fa805fac95cf51d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/2a09782bcc91c2e41d50689efa22d4b6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/2b97f8f02d17f88a62dd6038c3b58ec4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/2d66942eeda8ddfd85a92c64609dda2f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/2db81a40e7e108f68db238c776106e96" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/2f2ce57e912e8030a109f923845586e3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/313de86353e8ee4222b0eee70b3239c8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/330facc1eba41dd247507e695750aa5b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/37fe38311770e0128c3c90b85efd35bb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/3b6b15582d15acfe707c3fb4225472a4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/3ced85c6f025202499d144f058d3f597" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/3ff39afc67b59e21bce7511f000033b8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/4450ce43f0cc17924af2087fe05c8cbd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/65670a15108827afd183b083d6c59e62" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/6c14e66665ffc0cf1b825d333ed2cb3a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/723e349483231416ef42a77822a88034" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/73821a1ec9a2af62a7614767e9d54244" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/79ab7134c2158a60c29cf4f304fd45d2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/7b1a7a296bce23dad466e51fb39b7343" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/7ca30df7ce0623b0218fababe088d39a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/80523934c417d696b922d7d60c2a42ad" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/811e61c42ff70d87970162b061b14a0a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/81b4d9bc1a74a0d2181932f65473d587" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/850f3c912a1ac70bfd8443cd4227cf83" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/85985d15d91471a98192532ae8ef44a0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/87308583852b6ec73ed659215ab8b5c5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/8756492d4762d0dde1234a9e1397a7ae" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/940d44443e342fe44ab79f68119a0da7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/944816ce5c3449386bc785e4937303c0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/9c10536cfab672fbe25fc148c2ecd4ed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/a34010d95f82e5fc3156511bacf8f6be" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/a59da69da375c0133d0d1e4c850638c8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/a91b138df510cced83c30ce84251d9fa" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/a9cd2be5309591ce94ebed2ceeb62ca4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/ac471d3c3d32f671749c7fea33dc4545" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/aff980b875232e88a0583a78fe127cb0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/b19cfa9f3e4edeba443eb3fa32257384" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/b880b47801212306aceb7f285706213c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/b8fb41c110652a5cbdd0a136771aa7c3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/bb1770ed94f1831f472b6e5fff2de526" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/bc4ad1e71777ab73b91857d480784196" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/d18c3e917fa51cbf9ef52e22e03b9abd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/d4d7d12db5aba5f45a3d5e3daec2f9ea" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/d6b7a60e2559b830680d4dc57ca9ac15" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/d772a3207f6de6d335f1ddfe62002406" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/d9ec790deae7920210385d072443980d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/e4d8ff404edca950e560555b7bee8afd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/e516ae047795fc0f55f8e8ff0943e531" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/e586b215d23205c3f9354543efe4c579" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/e5dc3c2a2e976fd04eb8a07bb1a68bda" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/f1c94ffec8c42714b15ba1a90f2d9a46" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/f7d0d79852cccf7e98a0d97a16edb41f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/fab3256bafee3db54a15b31904d666b8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/fc6ded50ce8027f684712da3fc5f904d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forbidden.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProxyServer.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProxyServer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/cache.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cache.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/filter.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/filter.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,182 +78,56 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="2054021916">
+    <session id="1549456765">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.2" value="1" />
+          <entry key="project.closed" value="9" />
+          <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.6" value="4" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="1" />
-          <entry key="py" value="5" />
+          <entry key="py" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="1" />
-          <entry key="Python" value="5" />
+          <entry key="Python" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="151" />
-          <entry key="html" value="140" />
-          <entry key="py" value="7113" />
+          <entry key="py" value="1177" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="140" />
-          <entry key="Python" value="7264" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.vcs.git.usages" />
-    </session>
-    <session id="1549456765">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="9" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.6" value="2" />
-          <entry key="project.open.time.7" value="6" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="11" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="Python Console" value="253" />
-          <entry key="py" value="8108" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="Python" value="8361" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="ef045b349bc3ab1cb7206be6789dbee4d6a1ed9d2230b82e02981ceb503b98c0" value="1" />
-          <entry key="py" value="8" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="8" />
+          <entry key="Python" value="1177" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ProxyServer.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-              <folding>
-                <element signature="e#47#67#0" expanded="true" />
-                <element signature="e#3257#3993#0" />
-                <marker date="1540050291354" expanded="true" signature="5432:5433" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/threading.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16283">
-              <caret line="864" selection-start-line="864" selection-end-line="864" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/traceback.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6498">
-              <caret line="345" selection-start-line="345" selection-end-line="345" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/filter.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-              <folding>
-                <marker date="1539506985708" expanded="true" signature="326:331" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="20" selection-start-column="20" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/cache.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="63" column="18" lean-forward="true" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
-              <folding>
-                <element signature="e#416#442#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/genericpath.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Python Script" />
-        <option value="HTML File" />
-      </list>
-    </option>
+    <leaf />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>filename</find>
-      <find>False</find>
-      <find>shut</find>
-      <find>break</find>
-      <find>return</find>
-      <find>begin_index</find>
+      <find>Last</find>
+      <find>Las</find>
+      <find>settimeout</find>
+      <find>shutd</find>
+      <find>Bad</find>
+      <find>response</find>
+      <find>print(data</find>
     </findStrings>
-    <replaceStrings>
-      <replace>__filename</replace>
-      <replace>None</replace>
-      <replace>return</replace>
-      <replace>index</replace>
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -196,22 +135,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cache.py" />
-        <option value="$PROJECT_DIR$/filter.py" />
-        <option value="$PROJECT_DIR$/redirect.html" />
-        <option value="$PROJECT_DIR$/lib/__init__.py" />
-        <option value="$PROJECT_DIR$/ProxyServer.py" />
-        <option value="$PROJECT_DIR$/ProxyServer.py" />
         <option value="$PROJECT_DIR$/lib/cache.py" />
+        <option value="$PROJECT_DIR$/ProxyServer.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
+    <option name="x" value="336" />
+    <option name="y" value="24" />
     <option name="width" value="697" />
     <option name="height" value="775" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -235,16 +169,6 @@
         </subPane>
       </pane>
     </panes>
-  </component>
-  <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="last_opened_file_path" value="J:/python" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="K:\computer Internetwork expr\psbypython\lib" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -291,32 +215,40 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="386160ad-a12d-4678-9e1e-996179add861" name="Default Changelist" comment="" />
-      <created>1539482256725</created>
+      <changelist id="45e6eb60-0265-44f9-ae96-a06778bb6121" name="Default Changelist" comment="" />
+      <created>1540389947664</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1539482256725</updated>
+      <updated>1540389947664</updated>
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16294643" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31587058" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.33281973" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32819724" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3990755" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32973805" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32973805" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.20493066" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -326,34 +258,8 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/lib/cache.py</url>
-          <line>30</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/lib/cache.py</url>
-          <line>51</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/ProxyServer.py</url>
-          <line>135</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/ProxyServer.py</url>
-          <line>167</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="data[index:index_e]" language="Python" />
-        <watch expression="data" language="Python" />
         <watch expression="data[index:index_e]" language="Python" />
       </configuration>
     </watches-manager>
@@ -365,90 +271,34 @@
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>data</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>len(data)</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/redirect.html">
+    <entry file="file://$PROJECT_DIR$/forbidden.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/threading.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16283">
-          <caret line="864" selection-start-line="864" selection-end-line="864" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/traceback.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6498">
-          <caret line="345" selection-start-line="345" selection-end-line="345" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="20" selection-start-column="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/genericpath.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cache/ef045b349bc3ab1cb7206be6789dbee4d6a1ed9d2230b82e02981ceb503b98c0">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/filter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <marker date="1539506985708" expanded="true" signature="326:331" ph="..." />
-          </folding>
+        <state relative-caret-position="219">
+          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ProxyServer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="e#47#67#0" expanded="true" />
-            <element signature="e#3257#3993#0" />
-            <marker date="1540050291354" expanded="true" signature="5432:5433" ph="..." />
-          </folding>
+        <state relative-caret-position="-4459">
+          <caret line="116" column="42" selection-start-line="116" selection-start-column="42" selection-end-line="116" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/cache.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="63" column="18" lean-forward="true" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
-          <folding>
-            <element signature="e#416#442#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="2774">
+          <caret line="149" column="11" selection-start-line="149" selection-start-column="11" selection-end-line="149" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/filter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
         </state>
       </provider>
     </entry>
