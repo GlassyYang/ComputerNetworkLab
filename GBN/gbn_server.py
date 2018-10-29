@@ -1,4 +1,4 @@
-from lib.gbn_recver import GbnRecver
+from lib import GbnRecver
 
 
 def server():
@@ -6,8 +6,7 @@ def server():
     client = GbnRecver(('localhost', 8080))
     while True:
         data = client.recv()
-        for i in data:
-            print('data receive: ' + i.encoding('utf-8'))
+        print('data receive: ' + data.decode('utf-8'))
 
 
 if __name__ == '__main__':

@@ -1,11 +1,11 @@
-from lib.gbn_sender import GbnSender
+from lib import GbnSender
 
 
 def client():
     print('initialize socket....')
     server = GbnSender(('localhost', 8080))
     server.initialize()
-    print("initialize finished. please input something to send to server, '.' in a single line means over" )
+    print("initialize finished. please input something to send to server, '.' in a single line means over")
     while True:
         data = input('>>>')
         if data == '.':

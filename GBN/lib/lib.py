@@ -13,5 +13,8 @@ def checksum(data):
 
 
 if __name__ == '__main__':
-    ans = checksum(b'\xa5\x46\xf4\x23\xf4\x24')
-    print(ans)
+    data = b'\xa5\x46\xf4\x23\xf4\x24'
+    ans = checksum(data)
+    print((ans ^ 0xffff).to_bytes(2, 'big'))
+    print("%x" % checksum(data + (ans ^ 0xffff).to_bytes(2, 'big')))
+    print("%x" % ans)

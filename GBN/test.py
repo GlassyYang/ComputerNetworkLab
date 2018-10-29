@@ -27,12 +27,33 @@ def Thread2(condition):
             condition.wait()
 
 
+def thread3(ths):
+    sleep(1)
+    ths.remove(current_thread())
+    sleep(1)
+    print('after remove..')
+    return
+
+
+def timer_thread(i):
+    print('in timer thread')
+    print(i)
+    return
+
+
 if __name__ == '__main__':
     condition = Condition()
     threads = []
-    t = Thread(target=Thread1, args=(condition,))
+    # t = Thread(target=Thread1, args=(condition,))
+    # t.start()
+    # threads.append(t)
+    # t = Thread(target=Thread2, args=(condition, ))
+    # t.start()
+    # threads.append(t)
+    # t = Thread(target=thread3, args=(threads,))
+    # threads.append(t)
+    # t.start()
+    t = Timer(2., timer_thread, args=(1,))
     t.start()
-    threads.append(t)
-    t = Thread(target=Thread2, args=(condition, ))
-    t.start()
-    threads.append(t)
+    sleep(4)
+

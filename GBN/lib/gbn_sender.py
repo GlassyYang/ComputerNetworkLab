@@ -1,6 +1,7 @@
 from socket import *
 from threading import Condition, Lock, Thread
 from . import lib
+# from time import sleep
 """
 GBN发送方的实现
 """
@@ -10,6 +11,8 @@ class GbnSender:
     def __init__(self, addr):
         # 定义seq最大值为255
         self.__BUFSIZE = 255
+        # test = bytes((0, 0)) + (4).to_bytes(4, 'big') + b'test'
+        # test += (lib.checksum(test) ^ 0xffff).to_bytes(2, 'big')
         self.__send_cache = []
         self.__seq = 0
         self.__pkg_sign = 255
@@ -39,7 +42,9 @@ class GbnSender:
         return self.__seq
 
     def __mk_pkt(self, data):
-        temp = bytes([255, self.__get_seq()]) + len(data).to_bytes(4, byteorder='big') + data
+        temp = bytes([128, self.__get_seq()]) + len(data).to_bytes(4, byteorder='big') + data
+        if len(temp) % 2 != 0:
+            temp += bytes([0])
         return temp + (lib.checksum(temp) ^ 0xffff).to_bytes(2, 'big')
 
     def send(self, data):
@@ -63,6 +68,7 @@ class GbnSender:
         :return: None
         """
         while True:
+            # sleep(4)
             self.__notify_sender.acquire()
             # 当发送缓存中没有数据的时候，线程进入挂起状态。
             while len(self.__send_cache) == 0:
@@ -71,29 +77,38 @@ class GbnSender:
             while len(self.__send_cache) > 0:
                 self.__lock.acquire()
                 for i in range(min(self.__window_size, len(self.__send_cache))):
-                    print('send package...')
                     self.__sock.send(self.__send_cache[i])
                 self.__lock.release()
                 self.__notify_recver.acquire()
                 self.__notify_recver.notify()
-                self.__notify_recver.wait(4)
+                flag = self.__notify_recver.wait(4)
+                while flag and len(self.__send_cache) > 0:
+                    self.__notify_recver.notify()
+                    flag = self.__notify_recver.wait(10)
+                    print(flag)
                 self.__notify_recver.release()
 
     def __ack_thread(self):
+        """
+        当对方关闭连接以至于无法向对方发送还没有发送的数据包的时候，会抛出ConnectionResetError异常
+        累积确认
+        :return:无
+        """
         self.__notify_recver.acquire()
         while True:
             while len(self.__send_cache) == 0:
                 self.__notify_recver.wait()
-            print('ack thread awake...')
+            self.__notify_recver.release()
             while len(self.__send_cache) > 0:
-                data = self.__sock.recv(self.__BUFSIZE)
-                if len(data) > 0:
-                    assert data[0] == 255
-                    seq = data[1]
-                    while self.__send_cache[0][1] <= seq:
-                        print('ack received')
-                        self.__lock.acquire()
-                        self.__send_cache.pop(0)
-                        self.__lock.release()
-                        self.__notify_recver.notify()
-                        self.__notify_recver.wait()
+                data = self.__sock.recv(1024)
+                assert len(data) > 0
+                seq = data[1]
+                print(seq)
+                while len(self.__send_cache) > 0 and self.__send_cache[0][1] <= seq:
+                    self.__lock.acquire()
+                    self.__send_cache.pop(0)
+                    self.__lock.release()
+                    self.__notify_recver.acquire()
+                    self.__notify_recver.notify()
+                    self.__notify_recver.wait()
+                    self.__notify_recver.release()
