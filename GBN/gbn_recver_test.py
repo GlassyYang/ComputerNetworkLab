@@ -8,7 +8,8 @@ def test():
     test = b'test'
     test = len(test).to_bytes(4, 'big') + test
     sock.connect(('localhost', 8080))
-    for i in range(1, 10):
+    mod = 3
+    for i in range(1, 100):
         if i == 5:
             continue
         data = bytes([0, i]) + test

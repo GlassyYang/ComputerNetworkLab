@@ -92,7 +92,8 @@ class SrSender:
         :return: 无
         """
         index = self.__find_index(seq)
-        assert index is not None
+        if index is None:
+            return
         lock = self.__timer_lock[index]
         lock.acquire()
         self.__sock.send(self.__cache[index])
@@ -111,6 +112,9 @@ class SrSender:
             lock = self.__timer_lock[index]
             lock.acquire()
             timer = self.__timer[index]
+            # timer 是 None 说明其ack在之前已经收到了
+            if timer is None:
+                continue
             timer.cancel()
             self.__timer[index] = None
             lock.release()

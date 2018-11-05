@@ -2,19 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="def1b45a-e3b8-45f2-bbe2-1ede98d73067" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/gbn_recver_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gbn_sender_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/GBN.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GBN.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gbn_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/gbn_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gbn_recver_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/gbn_recver_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gbn_sender_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/gbn_sender_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gbn_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/gbn_server.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/gbn_recver.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/gbn_recver.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/gbn_sender.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/gbn_sender.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/lib.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/lib.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/sr_recver.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/sr_recver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/sr_sender.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/sr_sender.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sr_recver_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/sr_recver_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sr_sender_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/sr_sender_test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,40 +61,42 @@
     <session id="1774159919">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="13" />
+          <entry key="project.closed" value="20" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.5" value="5" />
-          <entry key="project.open.time.6" value="2" />
-          <entry key="project.open.time.7" value="2" />
-          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.6" value="4" />
+          <entry key="project.open.time.7" value="4" />
+          <entry key="project.open.time.8" value="3" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="14" />
+          <entry key="project.opened" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="46" />
+          <entry key="py" value="120" />
           <entry key="pyi" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="46" />
+          <entry key="Python" value="120" />
           <entry key="PythonStub" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="189" />
+          <entry key="Python Console" value="513" />
           <entry key="dummy" value="30" />
-          <entry key="py" value="11705" />
+          <entry key="py" value="17125" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="30" />
-          <entry key="Python" value="11894" />
+          <entry key="Python" value="17638" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -107,52 +107,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sr_server.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="266">
               <caret line="14" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <marker date="1540801447253" expanded="true" signature="72:77" ph="..." />
-              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sr_sender_test.py">
+        <entry file="file://$PROJECT_DIR$/sr_client.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-              <folding>
-                <marker date="1540801959942" expanded="true" signature="42:47" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sr_recver_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-              <folding>
-                <element signature="e#0#20#0" expanded="true" />
-                <marker date="1540805509525" expanded="true" signature="394:576" ph="..." />
-                <marker date="1540805509525" expanded="true" signature="599:604" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#33#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="209">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -181,7 +149,18 @@
       <find>after wait</find>
       <find>sleep</find>
       <find>BUFSIZE</find>
+      <find>20</find>
+      <find>10</find>
       <find>send</find>
+      <find>.recv</find>
+      <find>.send</find>
+      <find>__notify_recver</find>
+      <find>send(</find>
+      <find>sendto(</find>
+      <find>255</find>
+      <find>128</find>
+      <find>recv</find>
+      <find>recv(</find>
       <find>print</find>
     </findStrings>
     <replaceStrings>
@@ -191,6 +170,7 @@
       <replace>condition</replace>
       <replace>res</replace>
       <replace>ans</replace>
+      <replace>__notify_ack</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -209,23 +189,29 @@
         <option value="$PROJECT_DIR$/lib/lib.py" />
         <option value="$PROJECT_DIR$/server_test.py" />
         <option value="$PROJECT_DIR$/gbn_client_test.py" />
-        <option value="$PROJECT_DIR$/lib/gbn_recver.py" />
         <option value="$PROJECT_DIR$/lib/sr_recv.py" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/gbn_server_test.py" />
-        <option value="$PROJECT_DIR$/lib/gbn_sender.py" />
-        <option value="$PROJECT_DIR$/lib/__init__.py" />
-        <option value="$PROJECT_DIR$/lib/__init__.py" />
-        <option value="$PROJECT_DIR$/gbn_server.py" />
-        <option value="$PROJECT_DIR$/gbn_client.py" />
-        <option value="$PROJECT_DIR$/sr_client.py" />
         <option value="$PROJECT_DIR$/sr_server.py" />
         <option value="$PROJECT_DIR$/sr_client_test.py" />
         <option value="$PROJECT_DIR$/sr_server_test.py" />
-        <option value="$PROJECT_DIR$/sr_sender_test.py" />
         <option value="$PROJECT_DIR$/lib/sr_recver.py" />
-        <option value="$PROJECT_DIR$/lib/sr_sender.py" />
+        <option value="$PROJECT_DIR$/sr_client.py" />
+        <option value="$PROJECT_DIR$/lib/gbn.py" />
+        <option value="$PROJECT_DIR$/GbnServer.py" />
+        <option value="$PROJECT_DIR$/lib/gbn_recver.py" />
+        <option value="$PROJECT_DIR$/lib/__init__.py" />
+        <option value="$PROJECT_DIR$/lib/__init__.py" />
+        <option value="$PROJECT_DIR$/lib/GbnClient.py" />
+        <option value="$PROJECT_DIR$/lib/GbnServer.py" />
+        <option value="$PROJECT_DIR$/gbn_recver_test.py" />
+        <option value="$PROJECT_DIR$/sr_sender_test.py" />
+        <option value="$PROJECT_DIR$/lib/gbn_sender.py" />
+        <option value="$PROJECT_DIR$/gbn_sender_test.py" />
         <option value="$PROJECT_DIR$/sr_recver_test.py" />
+        <option value="$PROJECT_DIR$/lib/sr_sender.py" />
+        <option value="$PROJECT_DIR$/gbn_server.py" />
+        <option value="$PROJECT_DIR$/gbn_client.py" />
       </list>
     </option>
   </component>
@@ -243,7 +229,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -251,10 +236,16 @@
               <item name="GBN" type="b2602c69:ProjectViewProjectNode" />
               <item name="GBN" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="GBN" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GBN" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -278,7 +269,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.sr_recver_test">
+  <component name="RunManager" selected="Python.sr_server">
     <configuration name="gbn_client" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="GBN" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -292,6 +283,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gbn_client.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="gbn_server" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="GBN" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gbn_server.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -342,27 +354,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sr_sender_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="GBN" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sr_sender_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="sr_server" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="GBN" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -386,18 +377,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.gbn_client" />
+      <item itemvalue="Python.gbn_server" />
+      <item itemvalue="Python.sr_recver_test" />
       <item itemvalue="Python.sr_client" />
       <item itemvalue="Python.sr_server" />
-      <item itemvalue="Python.sr_sender_test" />
-      <item itemvalue="Python.sr_recver_test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.sr_recver_test" />
-        <item itemvalue="Python.sr_client" />
         <item itemvalue="Python.sr_server" />
-        <item itemvalue="Python.sr_sender_test" />
+        <item itemvalue="Python.sr_client" />
+        <item itemvalue="Python.gbn_server" />
         <item itemvalue="Python.gbn_client" />
+        <item itemvalue="Python.sr_recver_test" />
       </list>
     </recent_temporary>
   </component>
@@ -425,19 +416,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="7" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49614793" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" sideWeight="0.5046083" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50385207" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.23574731" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.49922958" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3990755" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32973805" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32923076" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32819724" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32973805" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32819724" />
@@ -453,18 +443,14 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/lib/gbn_sender.py</url>
-          <line>25</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/gbn_client.py</url>
-          <option name="timeStamp" value="7" />
+          <line>27</line>
+          <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/gbn_server.py</url>
-          <line>5</line>
-          <option name="timeStamp" value="12" />
+          <url>file://$PROJECT_DIR$/sr_recver_test.py</url>
+          <line>108</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -493,13 +479,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/threading.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="345" selection-start-line="345" selection-end-line="345" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/threading.pyi">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -521,72 +500,125 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/gbn_sender.py">
+    <entry file="file://$PROJECT_DIR$/lib/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="114">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gbn_client.py">
+    <entry file="file://$PROJECT_DIR$/lib/gbn.py" />
+    <entry file="file://$PROJECT_DIR$/lib/GbnServer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gbn_server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <marker date="1540799344913" expanded="true" signature="41:46" ph="..." />
-          </folding>
+        <state relative-caret-position="181">
+          <caret line="110" column="59" selection-start-line="110" selection-start-column="59" selection-end-line="110" selection-end-column="59" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/gbn_recver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="22" />
+        <state relative-caret-position="228">
+          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gbn_sender_test.py">
+    <entry file="file://$PROJECT_DIR$/lib/GbnClient.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        <state relative-caret-position="276">
+          <caret line="112" column="27" selection-start-line="112" selection-start-column="27" selection-end-line="112" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/gbn_sender.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="96" column="68" selection-start-line="96" selection-start-column="68" selection-end-line="96" selection-end-column="68" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gbn_recver_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        <state relative-caret-position="171">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/sr_recver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+        <state relative-caret-position="361">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sr_sender_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="101" column="9" selection-start-line="101" selection-start-column="9" selection-end-line="101" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+            <marker date="1540875598314" expanded="true" signature="1033:2279" ph="..." />
+            <marker date="1540875598314" expanded="true" signature="2157:2279" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gbn_sender_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="60" column="22" lean-forward="true" selection-start-line="26" selection-end-line="60" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/sr_sender.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1007">
-          <caret line="53" column="45" lean-forward="true" selection-start-line="53" selection-start-column="45" selection-end-line="53" selection-end-column="45" />
+        <state relative-caret-position="2128">
+          <caret line="112" column="26" lean-forward="true" selection-start-line="112" selection-start-column="26" selection-end-line="112" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+            <marker date="1541416510769" expanded="true" signature="111:2712" ph="..." />
+            <marker date="1541416510769" expanded="true" signature="722:1233" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sr_recver_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-97">
+          <caret line="86" column="36" selection-start-line="86" selection-start-column="36" selection-end-line="86" selection-end-column="36" />
+          <folding>
+            <marker date="1541416458442" expanded="true" signature="2422:2551" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/threading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="916" selection-start-line="916" selection-end-line="916" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gbn_client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <marker date="1541417416102" expanded="true" signature="796:799" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gbn_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sr_client.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="209">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
@@ -594,41 +626,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <marker date="1540801447253" expanded="true" signature="72:77" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sr_sender_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-          <folding>
-            <marker date="1540801959942" expanded="true" signature="42:47" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sr_recver_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-            <marker date="1540805509525" expanded="true" signature="394:576" ph="..." />
-            <marker date="1540805509525" expanded="true" signature="599:604" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>

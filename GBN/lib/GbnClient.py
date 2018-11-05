@@ -1,13 +1,12 @@
 from socket import *
 from threading import Condition, Lock, Thread
 from . import lib
-# from time import sleep
 """
 GBN发送方的实现
 """
 
 
-class GbnSender:
+class GbnClient:
     def __init__(self, addr):
         # 定义seq最大值为255
         self.__BUFSIZE = 255
@@ -19,8 +18,12 @@ class GbnSender:
         self.__sock.connect(addr)
         self.__window_size = 10
         self.__lock = Lock()
+        # 期待的下一个数据包
+        self.__recv_eseq = 1
+        self.__recv_cache = []
         self.__notify_sender = Condition()
         self.__notify_recver = Condition()
+        self.__notify_ack = Condition()
         t = Thread(target=self.__send_thread, daemon=True)
         t.start()
         t = Thread(target=self.__ack_thread, daemon=True)
@@ -34,7 +37,7 @@ class GbnSender:
         return self.__seq
 
     def __mk_pkt(self, data):
-        temp = bytes([128, self.__get_seq()]) + len(data).to_bytes(4, byteorder='big') + data
+        temp = bytes([0, self.__get_seq()]) + len(data).to_bytes(4, byteorder='big') + data
         if len(temp) % 2 != 0:
             temp += bytes([0])
         return temp + (lib.checksum(temp) ^ 0xffff).to_bytes(2, 'big')
@@ -53,6 +56,18 @@ class GbnSender:
         self.__notify_sender.release()
         return
 
+    def recv(self):
+        """
+        接收对方发来的数据，当没有数据的时候进入阻塞状态直到对方发来数据。
+        :return:
+        """
+        self.__notify_recver.acquire()
+        while len(self.__recv_cache) == 0:
+            self.__notify_recver.wait()
+        data = self.__recv_cache[0]
+        self.__recv_cache.pop(0)
+        return data
+
     def __send_thread(self):
         """
         真正的发送数据的方法，当实例化该类的对象的时候，该方法作为独立的守护线程在后台运行，将发送缓存中的数据（如果
@@ -60,7 +75,6 @@ class GbnSender:
         :return: None
         """
         while True:
-            # sleep(4)
             self.__notify_sender.acquire()
             # 当发送缓存中没有数据的时候，线程进入挂起状态。
             while len(self.__send_cache) == 0:
@@ -71,13 +85,13 @@ class GbnSender:
                 for i in range(min(self.__window_size, len(self.__send_cache))):
                     self.__sock.send(self.__send_cache[i])
                 self.__lock.release()
-                self.__notify_recver.acquire()
-                self.__notify_recver.notify()
-                flag = self.__notify_recver.wait(4)
+                self.__notify_ack.acquire()
+                self.__notify_ack.notify()
+                flag = self.__notify_ack.wait(4)
                 while flag and len(self.__send_cache) > 0:
-                    self.__notify_recver.notify()
-                    flag = self.__notify_recver.wait(10)
-                self.__notify_recver.release()
+                    self.__notify_ack.notify()
+                    flag = self.__notify_ack.wait(4)
+                self.__notify_ack.release()
 
     def __ack_thread(self):
         """
@@ -85,20 +99,25 @@ class GbnSender:
         累积确认
         :return:无
         """
-        self.__notify_recver.acquire()
         while True:
-            while len(self.__send_cache) == 0:
-                self.__notify_recver.wait()
-            self.__notify_recver.release()
-            while len(self.__send_cache) > 0:
-                data = self.__sock.recv(1024)
-                assert len(data) > 0
+            data = self.__sock.recv(1024)
+            if data[0] == 0 and data[1] == self.__recv_eseq and lib.checksum(data) == 0xffff:
+                self.__recv_eseq += 1
+                if self.__recv_eseq > self.__BUFSIZE:
+                    self.__recv_eseq = 0
+                data_len = int.from_bytes(data[2:6], 'big')
+                self.__recv_cache.append(data[6:6+data_len])
+                ack = bytes([255, data[1]])
+                self.__sock.send(ack)
+                self.__notify_recver.acquire()
+                self.__notify_recver.notify()
+                self.__notify_recver.release()
+            elif len(self.__send_cache) > 0:
                 seq = data[1]
                 while len(self.__send_cache) > 0 and self.__send_cache[0][1] <= seq:
                     self.__lock.acquire()
                     self.__send_cache.pop(0)
                     self.__lock.release()
-                    self.__notify_recver.acquire()
-                    self.__notify_recver.notify()
-                    self.__notify_recver.wait()
-                    self.__notify_recver.release()
+                    self.__notify_ack.acquire()
+                    self.__notify_ack.notify()
+                    self.__notify_ack.release()

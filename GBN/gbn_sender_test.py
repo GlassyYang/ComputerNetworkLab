@@ -27,17 +27,19 @@ def test1():
 
 def test2():
     """
-    测试超时重传机制。选择元组将要发送的包中的其中一个包，在这之后的包都不发送ack，而是在第二次收到该包的时候再发送ack。
-    预期结果是在该包之前的包只发送一次，而在这之后的包发送两次。
+    测试概率丢包
     :return:
     """
-    select = 3
+    select = 3       # 概率值，所有被该变量整除的seq的包都会被丢弃。
+    count = 0
     sock = socket(AF_INET, SOCK_DGRAM)
     sock.bind(('localhost', 8080))
     while True:
         data, addr = sock.recvfrom(1024)
-        if data[1] >= select:
-            break
+        if data[1] % select == 0 and count < 5:
+            print(data[1])
+            count += 1
+            continue
         ack = bytes([255, data[1]])
         sock.sendto(ack, addr)
         print(data[1])
@@ -60,4 +62,5 @@ def test2():
 
 
 if __name__ == '__main__':
-    test1()
+    test2()     # 概率丢包
+    # test1()     # 累积确认
